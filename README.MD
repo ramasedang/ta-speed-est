@@ -122,4 +122,4 @@ Setelah semua dependensi terinstal dan `settings.py` (serta RabbitMQ jika diguna
     uv run speed_est.py
     ```
 
-Aplikasi akan mulai memproses video sesuai konfigurasi. Log akan ditampilkan di terminal.
+Aplikasi akan mulai memproses video sesuai konfigurasi. Log akan ditampilkan di terminal. Kalau ingin di background bisa pakai supervisor atau nohup
