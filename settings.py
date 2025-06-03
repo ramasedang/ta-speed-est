@@ -84,7 +84,7 @@ CALIBRATION_RULES = [
 ]
 
 # =================== Konfigurasi RabbitMQ ===================
-USE_RABBITMQ = True # Set ke False untuk menonaktifkan integrasi RabbitMQ
+USE_RABBITMQ = False # Set ke False untuk menonaktifkan integrasi RabbitMQ
 RABBITMQ_HOST = "10.15.40.194"
 RABBITMQ_PORT = 5672
 RABBITMQ_VHOST = "/"
