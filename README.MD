@@ -23,7 +23,7 @@ Ikuti langkah-langkah berikut untuk menyiapkan dan menjalankan proyek:
     Atau pakai snap
     
     ```bash
-    sudo snap install astral-uv
+    sudo snap install astral-uv --classic
     ```
 
 * **Windows:**
