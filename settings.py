@@ -6,15 +6,16 @@
 PTS1_COORDINATES = [[1339, 105], [2255, 135], [2622, 847], [1155, 880]]
 
 # Dimensi nyata dari area yang dicakup oleh PTS1_COORDINATES
-REAL_HEIGHT_M = 10.0  # Tinggi/panjang area dalam meter
-REAL_WIDTH_M = 6.0    # Lebar area dalam meter
+REAL_HEIGHT_M = 6  # Tinggi/panjang area dalam meter
+REAL_WIDTH_M = 6    # Lebar area dalam meter
 
 # =================== Konfigurasi Video/Stream ===================
 # Path ke file video atau URL RTSP stream
 # Contoh RTSP: "rtsp://username:password@ip_address:port/stream_path"
 # Contoh File: "/path/to/your/video.mp4" atau "C:/videos/my_video.avi"
-VIDEO_PATH = "rtsp://admin:081Sultan@10.5.79.69:554/Streaming/Channels/1"
+# VIDEO_PATH = "rtsp://admin:081Sultan@10.5.79.69:554/Streaming/Channels/1"
 # VIDEO_PATH = "path/to/your/local_video.mp4" # Alternatif untuk file lokal
+VIDEO_PATH ="output_20km_4.2_3.mp4"
 
 # Nama file untuk output video (jika memproses file video, bukan stream)
 OUTPUT_VIDEO_FILE = "output_run_real.mp4"
