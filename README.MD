@@ -35,7 +35,7 @@ Kloning repositori ini ke mesin lokal Anda. Ganti `[URL_REPO_ANDA]` dengan URL r
 
 ```bash
 git clone [URL_REPO_ANDA]
-cd speed-est # atau nama direktori proyek Anda
+cd ta-speed-est # atau nama direktori proyek Anda
 ```
 Jika Anda tidak menggunakan Git, pastikan semua file proyek (`speed_est.py`, `settings.py`, `pyproject.toml`, `docker-compose.yaml`, dll.) sudah ada di direktori kerja Anda.
 
