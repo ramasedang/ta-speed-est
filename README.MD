@@ -20,7 +20,11 @@ Ikuti langkah-langkah berikut untuk menyiapkan dan menjalankan proyek:
     ```bash
     wget -qO- https://astral.sh/uv/install.sh | sh
     ```
-
+    Atau pakai snap
+    
+    ```bash
+    sudo snap install astral-uv
+    ```
 
 * **Windows:**
     Kunjungi [dokumentasi resmi `uv`](https://astral.sh/uv#installation) untuk instruksi instalasi di Windows.
