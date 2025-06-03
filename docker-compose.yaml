@@ -1,0 +1,22 @@
+version: '3.8' # Versi docker-compose yang digunakan
+services:
+  rabbitmq:
+    image: rabbitmq:3-management # Menggunakan image dengan management plugin
+    container_name: rabbitmq_server
+    hostname: my-rabbitmq # Bisa diganti sesuai keinginan
+    ports:
+      - "5672:5672"   # Port AMQP default
+      - "15672:15672" # Port Management Plugin (Web UI)
+    volumes:
+      - ./rabbitmq_data:/var/lib/rabbitmq/ 
+    environment:
+      # Default user dan password, SANGAT direkomendasikan untuk diubah di production
+      - RABBITMQ_DEFAULT_USER=admin 
+      - RABBITMQ_DEFAULT_PASS=admin
+      - RABBITMQ_DEFAULT_VHOST=/
+    healthcheck:
+      test: ["CMD", "rabbitmqctl", "status"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+    # restart: unless-stopped # Kebijakan restart kontainer
