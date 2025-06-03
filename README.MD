@@ -14,16 +14,13 @@ Ikuti langkah-langkah berikut untuk menyiapkan dan menjalankan proyek:
 * **macOS dan Linux:**
     Gunakan `curl` (atau `wget`) untuk mengunduh dan menjalankan skrip instalasi:
     ```bash
-    curl -LsSf [https://astral.sh/uv/install.sh](https://astral.sh/uv/install.sh) | sh
+    curl -LsSf https://astral.sh/uv/install.sh | sh
     ```
     Atau jika menggunakan `wget`:
     ```bash
-    wget -qO- [https://astral.sh/uv/install.sh](https://astral.sh/uv/install.sh) | sh
+    wget -qO- https://astral.sh/uv/install.sh | sh
     ```
-    Untuk versi spesifik (contoh `0.7.9`):
-    ```bash
-    curl -LsSf [https://astral.sh/uv/0.7.9/install.sh](https://astral.sh/uv/0.7.9/install.sh) | sh
-    ```
+
 
 * **Windows:**
     Kunjungi [dokumentasi resmi `uv`](https://astral.sh/uv#installation) untuk instruksi instalasi di Windows.
